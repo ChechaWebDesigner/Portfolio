@@ -1,0 +1,79 @@
+.contact {
+    background-color: var(--super-dark-blue);
+}
+
+.contact form {
+    max-width: 1000px;
+}
+
+@media (min-width: 968px) {
+    .contact form {
+        width: 50% !important;
+        max-width: 1200px;
+    }
+}
+
+/* From uiverse.io by @liyaxu123 */
+
+.container-input .txt-element {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px var(--light-blue) solid;
+    display: block;
+    width: 100%;
+    padding: 0.85rem 0;
+    font-size: 1.25rem;
+    color: var(--light-gray);
+}
+
+.container-input .txt-element:focus,
+.container-input .txt-element:valid {
+    outline: 0;
+    border-bottom-color: var(--light-gray);
+}
+
+.container-input label {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    pointer-events: none;
+}
+
+.container-input label span {
+    display: inline-block;
+    font-size: 1.2rem;
+    min-width: 5px;
+    color: #fff;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.container-input .txt-element:focus+label span,
+.container-input .txt-element:valid+label span {
+    color: lightblue;
+    transform: translateY(-30px);
+}
+
+textarea.txt-element {
+    resize: none;
+}
+
+
+@media (max-width: 768px) {
+    .container-txtInput {
+        margin-top: 2.5rem;
+    }
+
+    .container-data-personal {
+        margin-top: 0 !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-txtInput {
+        margin-top: 2.5rem;
+    }
+
+    #btn-submit {
+        width: 50% !important;
+    }
+}

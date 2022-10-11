@@ -1,0 +1,33 @@
+.project {
+    --min-wd: 20rem;
+    --min-hg: 14rem;
+}
+
+.project {
+    background-size: 100% 100%;
+    min-width: var(--min-wd);
+    min-height: var(--min-hg);
+    height: calc(100% + 50px);
+}
+
+.project .element-into-project {
+    opacity: 0;
+    color: #fff;
+}
+
+.project:hover {
+    background: #141E30 !important;
+    background: -webkit-linear-gradient(to right, #243B55, #141E30) !important;
+    background: linear-gradient(to right, #243B55, #141E30) !important;
+
+}
+
+.project:hover>.element-into-project {
+    animation: show 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes show {
+    100% {
+        opacity: 1;
+    }
+}
