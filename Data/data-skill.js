@@ -15,7 +15,7 @@ export const skills = [
     name: "JavaScript",
     img: "./images/JS.png",
     nivelName: "Junior",
-    nivel: 40,
+    nivel: 35,
   },
   {
     name: "MS Office",
