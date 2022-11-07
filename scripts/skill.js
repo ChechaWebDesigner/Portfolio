@@ -42,14 +42,13 @@ export default function createSkills(container, infoSkills) {
       "text-center",
       "fw-bold"
     );
-    valueContainer.innerHTML = `${element.nivelName} <br> <span class="fs-4">0%</span>`;
+    valueContainer.innerHTML = `${element.nivelName}`;
 
     let progressValue = 0;
     let progressEndValue = element.nivel;
 
     let progressSkill = setInterval(() => {
       progressValue++;
-      valueContainer.innerHTML = `${element.nivelName} <br> <span class="fs-4">${progressValue}%</span>`;
       progress.style.background = `conic-gradient(#041562 ${
         progressValue * 3.6
       }deg, #A6D1E6 ${progressValue * 3.6}deg)`;
