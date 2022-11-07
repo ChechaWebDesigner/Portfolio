@@ -50,3 +50,11 @@ body {
 .w-40 {
     width: 40%;
 }
+
+.top-90-vh {
+    top: 90vh;
+}
+
+.mr-0-5rem {
+    margin-right: 0.5rem;
+}
