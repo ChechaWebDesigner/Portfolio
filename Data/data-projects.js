@@ -35,10 +35,11 @@ export const projects = [
     technologies: ["HTML", "Bootstrap", "JavaScript", "PHP"],
     img: "./images/subway.png",
   },
-  // {
-  //   name: "Yuuchi Puzle",
-  //   link: "https://chechawebdesigner.github.io/Yuchi-Puzzle/",
-  //   description: "Es un pequeño rompecabezas sobre Katagiri Yuuichi",
-  //   img: "./images/interactive-component.png",
-  // },
+  {
+    name: "Anime's Quiz",
+    link: "https://chechawebdesigner.github.io/Quizz_Anime/",
+    description: "It is a quiz about anime",
+    technologies: ["HTML", "Tailwind CSS", "JavaScript"],
+    img: "./images/quiz_anime.png",
+  },
 ];
