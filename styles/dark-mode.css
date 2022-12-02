@@ -1,0 +1,62 @@
+body.dark-mode {
+  background-color: var(--mega-dark-blue);
+}
+
+/* Title color and white letter */
+
+.dark-mode .title-item,
+.dark-mode .dark-color-white {
+  color: var(--light-gray);
+}
+
+/* Btn change theme */
+
+.dark-mode .btn-theme-change {
+  background-color: var(--super-dark-blue);
+}
+
+/* Typed color */
+
+.dark-mode .text-title-name {
+  color: var(--light-blue);
+}
+
+/* Navbar */
+
+.dark-mode nav {
+  background-color: var(--super-dark-blue);
+}
+
+.dark-mode .navbar-toggler {
+  border-color: var(--light-gray);
+}
+
+.dark-mode .navbar-toggler-icon {
+  filter: invert();
+}
+
+.dark-mode li.nav-item a.dark-color-white {
+  color: var(--light-gray);
+}
+
+@media screen and (min-width: 768px) {
+  .dark-mode li.nav-item:hover a.nav-link {
+    border-bottom-color: var(--light-gray);
+  }
+}
+
+/* Skills */
+
+.dark-mode .back-skill {
+  background-color: #eeeeee12;
+}
+
+/* Shadow */
+
+.dark-mode .shadow {
+  box-shadow: 0 .5rem 1rem rgba(105, 98, 98, 0.15) !important;
+}
+
+.dark-mode .bg-medium-gray {
+  background-color: var(--medium-gray-dark);
+}

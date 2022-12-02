@@ -1,0 +1,17 @@
+.soft-skill {
+    min-width: 12rem;
+    min-height: 11rem;
+    border: 2px solid var(--light-blue);
+}
+
+.img-soft-skill {
+    background-image: url(./../images/blob-me.svg);
+}
+
+.img-soft-skill img {
+    min-width: 5rem;
+}
+
+.soft-skill:hover {
+    transform: scale(1.1);
+}
