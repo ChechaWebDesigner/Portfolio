@@ -40,6 +40,6 @@ export const projects = [
     link: "https://chechawebdesigner.github.io/Quizz_Anime/",
     description: "It is a game about anime",
     technologies: ["HTML", "Tailwind CSS", "JavaScript"],
-    img: "./images/subway.png",
+    img: "./images/quiz_anime.png",
   },
 ];
