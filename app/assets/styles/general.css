@@ -1,0 +1,82 @@
+:root {
+    --light-gray: #FCF9F9;
+    --light-blue: #A6D1E6;
+    --medium-gray-light: #D6E4E533;
+    --medium-gray-dark: #D6E4E510;
+    --medium-blue: #B4CDE6;
+    --very-dark-blue: #041562;
+    --super-dark-blue: #06283D;
+    --mega-dark-blue: #011526;
+}
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.title-item {
+    scroll-margin-top: 5rem;
+}
+
+#root, body {
+    background-color: var(--light-gray);
+}
+
+.title-element {
+    background-color: var(--light-blue);
+}
+
+.bg-medium-blue {
+    background-color: var(--medium-blue);
+}
+
+.bg-medium-gray {
+    background-color: var(--medium-gray-light);
+}
+
+.text-title-name {
+    color: var(--very-dark-blue);
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.my-picture {
+    background-image: url(./../images/circle.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.my-picture img {
+    min-width: 160px;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.top-90-vh {
+    top: 90vh;
+}
+
+.mr-0-5rem {
+    margin-right: 0.5rem;
+}
+
+.btn-more {
+    width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+    .btn-more {
+        width: 25%;
+    }
+}

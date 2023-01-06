@@ -1,0 +1,62 @@
+.circular-progress {
+    height: 10.25rem;
+    width: 10.25rem;
+    background-color: #000;
+}
+
+.circular-progress::before {
+    content: "";
+    position: absolute;
+    height: 84%;
+    width: 84%;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.container-skill {
+    overflow: hidden;
+}
+
+.back-skill {
+    transform-style: preserve-3d;
+    background-color: #eeeeee55;
+}
+
+.back-skill > img {
+    mix-blend-mode: multiply;
+}
+
+.container-skill:hover .front-skill {
+    opacity: 0;
+}
+
+.container-skill:hover .back-skill {
+    -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.container-skill>div {
+    backface-visibility: hidden;
+}
+
+ @-webkit-keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
+    }
+  }
+  @keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
+    }
+  }
+  
