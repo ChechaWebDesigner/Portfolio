@@ -1,6 +1,6 @@
 export function BtnLinkSection(props) {
   const $aBtn = document.createElement("a"),
-    { href, icon, text } = props;
+    { href, icon, target = "", text } = props;
 
   $aBtn.classList.add(
     "px-3",
@@ -12,7 +12,7 @@ export function BtnLinkSection(props) {
   );
 
   $aBtn.href = href;
-  $aBtn.target = "_blank";
+  $aBtn.target = target;
   $aBtn.innerHTML = `${icon} ${text}`;
 
   return $aBtn;
