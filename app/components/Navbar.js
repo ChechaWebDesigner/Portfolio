@@ -58,6 +58,7 @@ export function Navbar(props) {
       BtnLinkSection({
         icon: el.icon,
         href: el.href,
+        target: el.target,
         text: el.text,
       })
     );
