@@ -37,6 +37,7 @@ export async function App() {
     {
       icon: `<i class="fa-solid fa-file"></i>`,
       href: "./app/assets/CV/César Joel González Oliva CV.pdf",
+      target: "_blank",
       text: "CV",
     },
     {
