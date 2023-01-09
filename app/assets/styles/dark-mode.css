@@ -47,6 +47,10 @@
 
 /* Skills */
 
+.dark-mode .front-skill {
+  background-color: #071b3891;
+}
+
 .dark-mode .back-skill {
   background-color: #eeeeee12;
 }
