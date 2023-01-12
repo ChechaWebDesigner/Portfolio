@@ -14,14 +14,6 @@ export const projects = [
     img: "./app/assets/images/task-list.png",
   },
   {
-    name: "Rock, Paper, Scissors game",
-    link: "https://chechawebdesigner.github.io/Rock-Paper-Scissors-game/",
-    description:
-      "It's the traditional game of rock, paper, scissors, but it has a bonus mode",
-    technologies: ["HTML", "Tailwind CSS", "JavaScript"],
-    img: "./app/assets/images/rock-paper-scissors-game.png",
-  },
-  {
     name: "Subway Page",
     link: "https://subwayproject.000webhostapp.com/app/Web5BACOB07/index.html",
     description: "It is an academic project about the company Subway",
@@ -34,6 +26,14 @@ export const projects = [
     description: "It is a game about anime where you can know your knowledge in this area.",
     technologies: ["HTML", "Tailwind CSS", "JavaScript"],
     img: "./app/assets/images/quiz_anime.png",
+  },
+  {
+    name: "Rock, Paper, Scissors game",
+    link: "https://chechawebdesigner.github.io/Rock-Paper-Scissors-game/",
+    description:
+      "It's the traditional game of rock, paper, scissors, but it has a bonus mode",
+    technologies: ["HTML", "Tailwind CSS", "JavaScript"],
+    img: "./app/assets/images/rock-paper-scissors-game.png",
   },
   {
     name: "Interactive Pricing Component",
