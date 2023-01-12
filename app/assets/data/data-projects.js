@@ -14,12 +14,12 @@ export const projects = [
     img: "./app/assets/images/task-list.png",
   },
   {
-    name: "Interactive Pricing Component",
-    link: "https://chechawebdesigner.github.io/Interactive-Pricing-Component/",
+    name: "Rock, Paper, Scissors game",
+    link: "https://chechawebdesigner.github.io/Rock-Paper-Scissors-game/",
     description:
-      "It is an interactive pricing where you can change the views and with it the price",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    img: "./app/assets/images/interactive-component.png",
+      "It's the traditional game of rock, paper, scissors, but it has a bonus mode",
+    technologies: ["HTML", "Tailwind CSS", "JavaScript"],
+    img: "./app/assets/images/rock-paper-scissors-game.png",
   },
   {
     name: "Subway Page",
@@ -34,6 +34,14 @@ export const projects = [
     description: "It is a game about anime where you can know your knowledge in this area.",
     technologies: ["HTML", "Tailwind CSS", "JavaScript"],
     img: "./app/assets/images/quiz_anime.png",
+  },
+  {
+    name: "Interactive Pricing Component",
+    link: "https://chechawebdesigner.github.io/Interactive-Pricing-Component/",
+    description:
+      "It is an interactive pricing where you can change the views and with it the price",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    img: "./app/assets/images/interactive-component.png",
   },
   {
     name: "FAQ Card",
