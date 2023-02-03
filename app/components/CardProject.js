@@ -40,9 +40,11 @@ export function CardProject(props) {
     ", "
   )}`;
 
+  const containerLinks = document.createElement("div");
+  containerLinks.classList.add("element-into-project", "d-flex", "justify-content-center", "gap-3");
+
   const linkProject = document.createElement("a");
   linkProject.classList.add(
-    "element-into-project",
     "btn",
     "btn-primary",
     "px-4",
@@ -52,10 +54,24 @@ export function CardProject(props) {
   linkProject.textContent = "View";
   linkProject.target = "_blank";
 
+  const linkGH = document.createElement("a");
+  linkGH.classList.add(
+    "btn",
+    "btn-success",
+    "px-4",
+    "py-2"
+  );
+  linkGH.href = element.github;
+  linkGH.textContent = "Code";
+  linkGH.target = "_blank";
+
+  containerLinks.appendChild(linkProject);
+  containerLinks.appendChild(linkGH);
+
   project.appendChild(nameProject);
   project.appendChild(descriptionProject);
   project.appendChild(technologies);
-  project.appendChild(linkProject);
+  project.appendChild(containerLinks);
 
   return project;
 }
