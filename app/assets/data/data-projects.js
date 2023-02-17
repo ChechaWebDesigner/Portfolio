@@ -50,11 +50,11 @@ export const projects = [
     img: "./app/assets/images/interactive-component.png",
   },
   {
-    name: "FAQ Card",
-    link: "https://chechawebdesigner.github.io/FAQ-Card/",
-    github: "https://github.com/ChechaWebDesigner/FAQ-Card/",
-    description: "It's a simple card with some animations and events",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    img: "./app/assets/images/FAQ-Card.png",
+    name: "Dictionary",
+    link: "https://chechawebdesigner.github.io/dictionary/",
+    github: "https://github.com/ChechaWebDesigner/dictionary/",
+    description: "It is a dictionary where you can look up different meanings",
+    technologies: ["HTML", "Tailwind CSS", "React JS"],
+    img: "./app/assets/images/dictionary.png",
   },
 ];
