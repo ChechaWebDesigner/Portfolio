@@ -18,6 +18,12 @@ export const skills = [
     nivel: 45,
   },
   {
+    name: "React JS",
+    img: "./app/assets/images/react.png",
+    nivelName: "Junior",
+    nivel: 40,
+  },
+  {
     name: "MS Office",
     img: "./app/assets/images/office.png",
     nivelName: "Intermediate",
@@ -32,8 +38,8 @@ export const skills = [
   {
     name: "Tailwind CSS",
     img: "./app/assets/images/tailwind-css.png",
-    nivelName: "Junior",
-    nivel: 35,
+    nivelName: "Intermediate",
+    nivel: 50,
   },
   {
     name: "Bootstrap",
