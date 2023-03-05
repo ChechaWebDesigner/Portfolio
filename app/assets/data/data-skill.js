@@ -47,4 +47,10 @@ export const skills = [
     nivelName: "Junior",
     nivel: 30,
   },
+  {
+    name: "Git",
+    img: "./app/assets/images/git.png",
+    nivelName: "Junior",
+    nivel: 25,
+  },
 ];
